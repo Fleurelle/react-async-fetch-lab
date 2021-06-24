@@ -23,7 +23,7 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                {this.state.peopleNames.name}
+                {this.state.peopleNames.map(list => list.name)}
             </div>
 
         )
